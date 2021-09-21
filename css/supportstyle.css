@@ -1,0 +1,176 @@
+header {
+
+}
+
+footer {
+
+}
+
+
+body {
+
+}
+
+img {
+  width: 20%;
+    top: 10px;
+}
+
+
+
+/* polices */
+@font-face {
+	font-family: "Sequel";
+	src: url('fonts/Sequel.ttf');
+}
+
+@font-face {
+	font-family: "Orkney";
+	src: url('fonts/Orkney.ttf');
+}
+
+
+
+header {
+font-family: Tahoma,Verdana,Segoe,sans-serif;
+}
+
+footer {
+  font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+  font-weight: lighter;
+}
+
+
+body {
+  font-family: Orkney;
+}
+
+/* title*/
+#title {
+    font-size: 75px;
+      font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+}
+
+
+
+#untitle {
+    font-size: 50px;
+      font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+      font-weight: lighter;
+}
+
+#bigtitle {
+    font-size: 75px;
+      font-family: Sequel;
+      font-weight: 900;
+}
+
+/* video */
+#video {
+  width: 50%;
+    cursor: pointer;
+}
+
+/* image */
+.imageright {
+position: right;
+}
+
+/*buttons*/
+.menubutton {
+  background-color: #E8C900;
+  border: solid;
+  color: white;
+  padding: 15px 32px;
+  text-align: none;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+border-radius: 25px;
+transition: all 0.2s ease-out;
+}
+
+.menubutton:hover {
+  background-color: #E8C900;
+  border: solid;
+  color: white;
+  padding: 15px 32px;
+  text-align: none;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+border-radius: 25px;
+box-shadow: 3px 5px 5px grey;
+transition: all 0.2s ease-out;
+}
+
+.menubutton:active {
+  background-color: #E8C900 ;
+  border: solid;
+  color: white;
+  padding: 15px 32px;
+  text-align: none;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+border-radius: 25px;
+box-shadow: none;
+}
+
+
+/*nav*/
+
+nav {
+  float: right;
+  width: 70%;
+  position: sticky;
+  top: 0px;
+  background-color: #E8C900;
+  box-shadow: 3px 5px 5px grey;
+
+}
+
+nav ul{
+    list-style-type: none;
+    position: sticky;
+    top: 20px;
+}
+
+nav li{
+    float: left;
+    width: 25%;
+    position: sticky;
+    top: 20px;
+    text-align: center;
+}
+
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+  position: sticky;
+  top: 20px;
+    display: list-item;
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+
+nav a:hover{
+transition: all 0.2s ease-out;
+  background-color: #E8C900;
+  box-shadow: 3px 5px 5px grey;
+}
+
+nav a:active{
+transition: all 0.2s ease-out;
+background-color: #E8C900;
+  box-shadow: 2px 3px 2px grey;
+}
