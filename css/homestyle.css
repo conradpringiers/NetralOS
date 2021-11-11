@@ -122,7 +122,25 @@ figcaption {
 
 }
 
+.cadretext{ border: 1px solid black; padding: 5px; }
+/*espacements*/
+hr {
+    border-top: solid;
+    border-bottom: solid;
+    border-top: 3px double #333;
+    color: #ffffff;
+    overflow: visible;
+    height: 1px;
+}
 
+hr:hover {
+  border-top: solid;
+  border-bottom: solid;
+  border-top: 3px double #333;
+  color: #ffffff;
+  overflow: visible;
+  height: 1px;
+}
 
 /*buttons*/
 .menubutton {
