@@ -172,3 +172,22 @@ transition: all 0.2s ease-out;
 background-color: #E8C900;
   box-shadow: 2px 3px 2px grey;
 }
+
+/* box */
+/*part 1*/
+#prefix {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: white;
+padding: 10px;
+
+}
+
+#box1 {
+background-color:#282b30;
+border-radius: 7px;
+margin-left: 200px ;
+margin-right: 200px ;
+margin-top: 80px;
+text-align: center;
+}
+
