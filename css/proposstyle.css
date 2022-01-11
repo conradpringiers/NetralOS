@@ -175,10 +175,16 @@ background-color: #E8C900;
 
 /* box */
 /*part 1*/
-#prefix {
+#textbig {
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 color: white;
 padding: 10px;
+
+}
+
+#just text {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: white;
 
 }
 
